@@ -15,3 +15,5 @@ UserParameter=nginx[*],/etc/zabbix/scripts/nginx-stats.sh "none" "$1" "$2"
 UserParameter=iostat[*],/etc/zabbix/scripts/iostat.sh "none" "$1" "$2"
 
 UserParameter=mysql-stats[*],/etc/zabbix/scripts/mysql-stats.sh "none" "$1" DB_USER DB_PASSWORD #!!!CAUTION
+
+UserParameter=apache2[*],/etc/zabbix/scripts/apache-stats.sh "none" "$1" "$2"
